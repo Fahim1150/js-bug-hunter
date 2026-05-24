@@ -19,15 +19,17 @@ This tool was built to automate the code review process by identifying "code sme
 1. Clone the repository:
 ```bash
    git clone [https://github.com/Fahim1150/js-bug-hunter.git](https://github.com/Fahim1150/js-bug-hunter.git)
+```
 2. Navigate to the project folder:
 ```bash   
     cd js-code-auditor
+```
 Usage
 1 Place the JavaScript file you wish to audit in the project directory (e.g., test-code.js).
 2 Update the fileName variable in auditor.js or pass it as an argument.
 3 Run the auditor:
 ```bash   node auditor.js
-
+```
 Sample Output
 (Index) Line    Issue               Detail                          Severity        
 0       12      High Complexity  Nesting exceeded 3 levels.         High
