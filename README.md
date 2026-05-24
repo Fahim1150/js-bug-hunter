@@ -28,7 +28,8 @@ Usage
 1 Place the JavaScript file you wish to audit in the project directory (e.g., test-code.js).
 2 Update the fileName variable in auditor.js or pass it as an argument.
 3 Run the auditor:
-```bash   node auditor.js
+```bash
+   node auditor.js
 ```
 Sample Output
 (Index) Line    Issue               Detail                          Severity        
