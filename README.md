@@ -34,14 +34,13 @@ Usage
 ```bash
    node auditor.js
 ```
-Sample Output
-(Index) Line    Issue               Detail                          Severity  
+## 📊 Sample Output
 
-0       12      High Complexity  Nesting exceeded 3 levels.         High
-
-1       24      Modernization   Use 'let/const' instead of 'var'    Medium
-
-2       45      Naming          Single-letter variable              Low
+| (Index) | Line | Issue | Detail | Severity |
+| :--- | :--- | :--- | :--- | :--- |
+| **0** | 12 | High Complexity | Nesting exceeded 3 levels. | High |
+| **1** | 24 | Modernization | Use 'let/const' instead of 'var' | Medium |
+| **2** | 45 | Naming | Single-letter variable | Low |
 
 ### Technical Implementation
 1. State Management: Implemented Boolean flags to handle "warn-once" logic for nested blocks.
