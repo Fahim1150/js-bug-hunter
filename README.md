@@ -1,7 +1,4 @@
 # JS Code Auditor
-
-`![Project Screenshot](screenshot.png)`
-
 A lightweight, terminal-based Static Analysis Tool (Linter) designed to enforce clean code standards and identify structural inefficiencies in JavaScript source files.
 
 ## Overview
