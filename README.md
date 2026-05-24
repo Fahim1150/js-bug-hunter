@@ -34,7 +34,7 @@ Usage
 ```bash
    node auditor.js
 ```
-## 📊 Sample Output
+## Sample Output
 
 | (Index) | Line | Issue | Detail | Severity |
 | :--- | :--- | :--- | :--- | :--- |
